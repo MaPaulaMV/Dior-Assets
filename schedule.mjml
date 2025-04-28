@@ -37,8 +37,8 @@
 
         <mj-text font-size="16px" color="#000" padding="0">
           <ul style="padding-left: 60px; margin: 10px 0; line-height: 24px;" line-height="24px">
-            <li>Friday May 2nd at 12:00 PM</li>
-            <li>Saturday May 3rd at 10:00 AM</li>
+            <li>Wednesday April 30th at 12:00 PM</li>
+            <li>Wednesday April 30th at 2:00 PM</li>
           </ul>
         </mj-text>
 
@@ -55,7 +55,7 @@
     
     <!-- footer --->
     <mj-section>
-      <mj-column width="100%" padding="50px 10px">
+      <mj-column width="100%" padding="30px 10px">
         <mj-text font-size="12px" color="#000" line-height="20px" align="center">
           At Christian Dior Couture, we take your choices and the confidentiality of your data seriously. Please consult our privacy policy on <a href="https://www.dior.com/en_us/fashion">dior.com</a> for all information concerning the use of your personal data by Christian Dior Couture
         </mj-text>

@@ -37,7 +37,7 @@
           We’ll see you {!Invitation__c.Selected_Date__c} at 185 Post Street San Francisco, CA 94108.
         </mj-text>
         <mj-text font-size="16px" color="#000" line-height="24px">
-          If you need to change or cancel this appointment please feel free to respond in this thread. We’ll see you soon Monsieur Le Moal.
+          If you need to change or cancel this appointment please feel free to respond in this thread. We’ll see you soon {!Contact.Salutation} {!Contact.LastName}.
         </mj-text>
         <mj-text font-size="12px" color="#000">
           <p style="font-size: 18px" class="baskerville">Dior Shopper</p>
@@ -48,7 +48,7 @@
     
     <!-- footer --->
     <mj-section>
-      <mj-column width="100%" padding="50px 10px">
+      <mj-column width="100%" padding="30px 10px">
         <mj-text font-size="12px" color="#000" line-height="20px" align="center">
           At Christian Dior Couture, we take your choices and the confidentiality of your data seriously. Please consult our privacy policy on <a href="https://www.dior.com/en_us/fashion">dior.com</a> for all information concerning the use of your personal data by Christian Dior Couture
         </mj-text>
