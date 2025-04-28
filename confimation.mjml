@@ -1,0 +1,59 @@
+<mjml>
+  <mj-head>
+    <!-- Google Fonts -->
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" />
+    <mj-font name="Libre Baskerville" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" />
+    
+    <mj-attributes>
+      <!-- Main Font -->
+      <mj-all font-family="Nunito, Arial, sans-serif" />
+    </mj-attributes>
+    
+    <mj-style inline="inline">
+      .nunito {
+        font-family: 'Nunito', Arial, sans-serif !important;
+      }
+
+      .baskerville {
+        font-family: 'Libre Baskerville', Georgia, serif !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FAFAFA"  width="600px">
+    <!-- header --->
+    <mj-section full-width="full-width" background-url="https://raw.githubusercontent.com/MaPaulaMV/Dior-Assets/main/images/header.png" background-repeat="no-repeat" background-size="cover">
+      <mj-column>
+        <mj-image width="102px" src="https://raw.githubusercontent.com/MaPaulaMV/Dior-Assets/main/images/dior.png" align="left" alt="Sphero"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <!-- content --->
+    <mj-section>
+      <mj-column border-bottom="1px solid #E5E5E5" padding-bottom="53px">
+        <mj-text font-size="16px" color="#000" line-height="24px">
+          You’re all set!
+        </mj-text>
+        <mj-text font-size="16px" color="#000" line-height="24px">
+          We’ll see you {!Invitation__c.Selected_Date__c} at 185 Post Street San Francisco, CA 94108.
+        </mj-text>
+        <mj-text font-size="16px" color="#000" line-height="24px">
+          If you need to change or cancel this appointment please feel free to respond in this thread. We’ll see you soon Monsieur Le Moal.
+        </mj-text>
+        <mj-text font-size="12px" color="#000">
+          <p style="font-size: 18px" class="baskerville">Dior Shopper</p>
+          <p>On behalf of the House of Dior</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- footer --->
+    <mj-section>
+      <mj-column width="100%" padding="50px 10px">
+        <mj-text font-size="12px" color="#000" line-height="20px" align="center">
+          At Christian Dior Couture, we take your choices and the confidentiality of your data seriously. Please consult our privacy policy on <a href="https://www.dior.com/en_us/fashion">dior.com</a> for all information concerning the use of your personal data by Christian Dior Couture
+        </mj-text>
+    	</mj-column>
+    </mj-section>
+   
+  </mj-body>
+</mjml>

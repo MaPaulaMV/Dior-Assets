@@ -1,0 +1,117 @@
+<mjml>
+  <mj-head>
+    <!-- Google Fonts -->
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" />
+    <mj-font name="Libre Baskerville" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" />
+
+    <mj-attributes>
+      <!-- Main Font -->
+      <mj-all font-family="Nunito, Arial, sans-serif" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .baskerville {
+      	font-family: 'Libre Baskerville', Georgia, serif !important;
+      }
+
+      .email-container {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+      }
+
+      .email-bg {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      .email-content {
+        position: relative;
+        z-index: 2;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FAFAFA">
+
+    <!-- Email with Animated BG -->
+    <mj-raw>
+      <div class="email-container">
+        <!--[if !mso]><!-- -->
+        <img 
+          src="https://raw.githubusercontent.com/MaPaulaMV/Dior-Assets/main/dior-video.gif" 
+          alt="Background Animated" 
+          class="email-bg"
+        />
+        <!--<![endif]-->
+
+        <!--[if mso]>
+        <img 
+          src="https://raw.githubusercontent.com/MaPaulaMV/Dior-Assets/main/images/video.png" 
+          alt="Background Static" 
+          class="email-bg"
+        />
+        <![endif]-->
+
+
+        <!-- Overlapping content -->
+        <div class="email-content">
+    </mj-raw>
+
+    <!-- Email Content -->
+    <mj-section background-color="transparent" padding="30px 0">
+      <mj-column>
+        <mj-image src="https://raw.githubusercontent.com/MaPaulaMV/Dior-Assets/main/images/dior.png" width="158px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding-top="50px">
+      <mj-column width="100%">
+        <mj-text color="#000" font-size="16px" align="center">
+          {!Contact.Salutation} {!Contact.LastName},
+        </mj-text>
+        <mj-text color="#000" font-size="28px" align="center" line-height="42px">
+          <p class="baskerville">An Invitation to<br>Preview Summer</p>
+        </mj-text>
+        <mj-text color="#000" font-size="16px" padding-top="50px" line-height="24px" align="justify" padding-bottom="0">
+          Our Summer collection has just arrived, and we believe a few select pieces may speak to your taste. We’d be pleased to offer you early access along with a private, in-store appointment tailored to your preferences.<br></br>
+          If you’d like to take take advantage of this invite, <b>simply reply to this email.</b><br></br>
+          See you soon,
+        </mj-text>
+
+        <mj-text font-size="12px" color="#000">
+          <p style="font-size: 18px" class="baskerville">Dior Shopper</p>
+          <p>On behalf of the House of Dior</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-image src="https://raw.githubusercontent.com/MaPaulaMV/Dior-Assets/main/images/preview.png" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="50px 0">
+      <mj-column width="100%" padding="60px 10px">
+        <mj-text font-size="12px" color="#000" line-height="20px" align="center">
+          At Christian Dior Couture, we take your choices and the confidentiality of your data seriously. Please consult our privacy policy on <a href="https://www.dior.com/en_us/fashion">dior.com</a> for all information concerning the use of your personal data by Christian Dior Couture
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      </div> <!-- Close .email-content -->
+      </div> <!-- Close .email-container -->
+    </mj-raw>
+  </mj-body>
+</mjml>
